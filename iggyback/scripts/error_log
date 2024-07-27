@@ -1,0 +1,4 @@
+[25-Jul-2024 04:19:42 UTC] PHP Warning:  file_put_contents(/../botcache/img_66a1d25e064582.05832694.png): Failed to open stream: No such file or directory in /home/canndlpi/tktrng/guide/iggyback/scripts/imgUpload.php on line 15
+[25-Jul-2024 04:28:39 UTC] PHP Warning:  file_put_contents(botcache/img_66a1d477e73ad2.85306154.png): Failed to open stream: No such file or directory in /home/canndlpi/tktrng/guide/iggyback/scripts/imgUpload.php on line 15
+[25-Jul-2024 04:29:36 UTC] PHP Warning:  file_put_contents(/botcache/img_66a1d4b08bcac4.14389083.png): Failed to open stream: No such file or directory in /home/canndlpi/tktrng/guide/iggyback/scripts/imgUpload.php on line 15
+[25-Jul-2024 04:32:57 UTC] PHP Warning:  file_put_contents(/botcache/img_66a1d579248365.94744954.png): Failed to open stream: No such file or directory in /home/canndlpi/tktrng/guide/iggyback/scripts/imgUpload.php on line 15
