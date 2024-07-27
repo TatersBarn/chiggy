@@ -1,0 +1,171 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.guidePage {
+    width: 750px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.chatWindow {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chatHeader {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.chatContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#chatArea {
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.messages {
+    align-self: flex-start;
+    width: calc(100% - 75px);
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.message.user {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    max-width: 75%;
+}
+
+.message.bot {
+    background-color: #e5e5ea;
+    align-self: flex-start;
+    max-width: 75%;
+}
+
+.uploadAndInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.uploadArea {
+    width: 70px;
+    cursor: pointer;
+}
+
+#imageInput {
+    display: none;
+}
+
+#imagePreview {
+    width: 70px; /* Small width for the image preview */
+    height: 70px; /* Small height for the image preview */
+    border: 2px dashed #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#imagePreview img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#userInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#sendButton {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background-color: #0056b3;
+}
+
+#feedbackMsg {
+    font-size: 12px;
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+#systemMsg {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+
+@keyframes ellipsis-animation {
+    0% {
+        content: ".";
+    }
+    33% {
+        content: "..";
+    }
+    66% {
+        content: "...";
+    }
+}
+
+.ellipsis::after {
+    content: "...";
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: ellipsis-animation 1s infinite steps(3);
+}
