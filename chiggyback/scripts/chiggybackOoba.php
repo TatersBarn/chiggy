@@ -1,4 +1,7 @@
 <?php
+//this file uses the oobabooga API in chatcompletionswithcharacter mode
+//this file is unfinished and much of it doesnt work
+//have fun
 
 // Get the user input from the frontend
 $userInput = json_decode(file_get_contents('php://input'), true);
@@ -10,7 +13,7 @@ $userInput = json_decode(file_get_contents('php://input'), true);
 $conversation = [
     [
         "role" => "assistant",
-        "content" => "Hi Taters, what are we working on today?"
+        "content" => "Hiya, what'cha wanna talk about??"
     ]
 ];
 
