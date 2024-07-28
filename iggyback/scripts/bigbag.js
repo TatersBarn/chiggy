@@ -1,6 +1,6 @@
 <?php
 // Define your OpenAI API key
-$apiKey = "sk-proj-E5yVHmgxyZxrbQbdRzukT3BlbkFJUdyHmLSjzFH4boY8vOWZ";
+$apiKey = "[openaiapikeyfukyou]";
 
 // Get the user input from the frontend
 $userInput = json_decode(file_get_contents('php://input'), true);
