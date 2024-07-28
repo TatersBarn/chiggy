@@ -27,7 +27,7 @@ $conversation = [
 //FOR OOBABOOGA
 $payload = [
      "mode" => "chat",
-     "character"=> "Fleur",
+     "character"=> "Assistant",
      "messages" => $conversation
 ];
 
