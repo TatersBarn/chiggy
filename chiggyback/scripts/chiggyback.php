@@ -1,4 +1,6 @@
 <?php
+//This file uses the OpenAI API  chat completions endpoint with chosen model (currently gpt-4o-mini   very cheap!)
+
 // Define your OpenAI API key
 $apiKey = "[YOUR_OPENAI_API_KEY]";
 
@@ -20,7 +22,7 @@ $systemPrompt = "You are a friendly and helpful chatbot, you are going to be cha
 $conversation = [
     [
         "role" => "assistant",
-        "content" => "Hi Taters, what are we working on today?"
+        "content" => "Hi! what do you wanna chat about today?"
     ]
 ];
 
